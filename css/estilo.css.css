@@ -1,0 +1,92 @@
+@charset="utf-8";
+
+body{
+    background-color:khaki ;  
+}
+h1{
+	position: fixed;
+	top: 20%;
+	border-radius: 25px;
+	color: lightskyblue; font-size: 170%;
+    border: 3px solid plum;
+    text-shadow: 2px 2px black;
+}
+
+p{
+	color: black; font-size: 130% ;
+    
+}
+.ul-a{
+  list-style-position: outside;
+}
+
+li{ 
+	position: relative;
+	background-color: pink;
+	 list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+ li-a{ padding: 5px 10px; 
+    margin:0;
+    border: 3px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+.img{
+	 border-radius: 8px;
+	 position: fixed;
+	 }
+
+h3{
+  width: 100px;
+  height: 64px;
+  background-size: 100px 64px;
+  position: fixed;
+  left: 50px;
+  top:1%;
+
+  }
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid pink;
+  border-radius: 4px;
+  background-color: pink;
+  resize: none;
+}
+
+div.gallery {
+  margin: 6px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:midoriya {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+i{
+  position: relative;
+  border: 2px solid blue; 
+  padding: 2px 2px;
+  width: 30%;
+  height: 50px;
+}
+
